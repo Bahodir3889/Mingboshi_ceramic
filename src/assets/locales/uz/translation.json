@@ -1,0 +1,49 @@
+{
+  "heroTitle":{
+    "1":"Muzey",
+    "2":"va",
+    "3":"eksport",
+    "4":"tovarlar",
+    "text":"Biz kulolchilik ishlab chiqaramiz va butun dunyoga eksport qilamiz"
+  },
+  "ThisMuseum":{
+    "1":"Kompaniyamiz 2013 yildan beri keramika mahsulotlarini ishlab chiqarish va eksport qilish bilan shug'ullanadi. 2022-yilda biz Turkiya, Litva, Germaniya, Amerika va Rossiyaning barcha shaharlariga tovarlarimizni yetkazib berdik. Bundan buyon dunyoning istalgan davlatiga shartnomalar asosida eksport qilishimiz mumkin."
+  },
+  "history":{
+    "1":"Kompaniyamiz o'z tarixini Rishton shahridagi kulolchilik buyumlarining ulgurji savdosidan boshlagan. Ayni paytda kompaniyamiz jahon bozoriga chiqib, kulolchilik durdonalari muzeyini ochdi va unga barchaning tashrif buyurishiga imkon yaratdi. Muzeyimizda qo'lda ishlangan turli xil keramika buyumlari mavjud."
+    
+  },
+  "advantages":{
+    "1":{
+      "1":"Keng assortiment",
+      "2":"Siz uchun har qanday tovarlar mavjud va buyurtma ostida. Siz xohlagancha juda chiroyli keramika mahsuloti."
+    },
+    "2":{
+      "1":"Sifatni tekshirish",
+      "2":"Biz mahsulotlarga kafolat beramiz: barcha mahsulotlar tegishli deklaratsiya va sertifikatlarga ega."
+    },
+    "3":{
+      "1":"Yetkazib berish",
+      "2":"Qadoqlangan keramika mahsulotlari o‘z egasiga sifatli, buzilmagan va buzilmagan holda yetib boradi."
+    }
+  },
+  "footer": {
+    "1": "Asosiy sahifa",
+    "2": "Bu qanday muzey",
+    "3": "Bizning tariximiz",
+    "4": "Afzalliklar",
+    "5": {
+      "1":"Galereya",
+      "2":"hammasini ko'ring"
+    },
+    "6": {
+      "1": "Kontakt",
+      "2":"O‘zbekiston Respublikasi Farg‘ona viloyati Rishton shahri A.Navoiy MFI Dukchiyon ko‘chasi 40-uy",
+      "3":"Axmadjonov Shokirjon"
+  }
+  },
+  "why": {
+      "1": "“Mingboshi Ceramics”",
+      "2":" oilaviy korxonasi"
+  }
+}

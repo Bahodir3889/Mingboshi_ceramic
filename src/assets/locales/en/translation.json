@@ -1,0 +1,49 @@
+{
+    "heroTitle":{
+        "1":"Museum",
+        "2":"and",
+        "3":"export",
+        "4":"goods",
+        "text":"We manufacture pottery and export all over the world"
+      },
+      "ThisMuseum":{
+        "1":"Our company has been manufacturing and exporting ceramic products since 2013. In 2022, we delivered our goods to all cities in Turkey, Lithuania, Germany, America and Russia. From now on, we can export to any country in the world on the basis of contracts."
+      },
+      "history":{
+    "1":"Our company began its history with the wholesale trade of ceramics in the city of Rishtan. At present, our company has entered the world market and opened a museum of pottery masterpieces and made it possible for everyone to visit it. Our museum presents a variety of handmade ceramic products."
+    
+  },
+  "advantages":{
+    "1":{
+      "1":"A wide range of",
+      "2":"Available and under the order any goods for you. Very beautiful ceramic product as you want."
+    },
+    "2":{
+      "1":"Quality assurance",
+      "2":"We guarantee products: all products have the appropriate declarations and certificates."
+    },
+    "3":{
+      "1":"Delivery",
+      "2":"Packaged ceramic products will reach their owner in good quality, without damage or breakage."
+    }
+  },
+    "footer": {
+        "1": "Home",
+        "2": "What is this museum",
+        "3": "Our history",
+        "4": "Advantages",
+        "5": {
+            "1":"Galleries",
+            "2":"See all"
+          },
+        "6": {
+            "1": "Contacts",
+            "2":"Republic of Uzbekistan Ferghana region Rishtan city A. Navoi MFI Dukchiyon street 40",
+            "3":"Axmadjonov Shokirjon"
+        }
+    },
+    "why": {
+        "1": "“MINGBOSHI CERAMIC”",
+        "2":"family business"
+    }
+}

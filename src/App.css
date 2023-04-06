@@ -1,38 +1,370 @@
-.App {
-  text-align: center;
+@media (max-width: 1200px) {
+    .thisMuseum__img {
+        width: 627px;
+        height: 550px !important;
+    }
+
+    .thisMuseum__content {
+        height: 340px !important;
+    }
+
+    .history__master {
+        max-width: 400px !important;
+        width: 100% !important;
+        height: 580px !important;
+    }
+
+    .history__cup {
+        max-width: 540px !important;
+        width: 100% !important;
+        height: 280px !important;
+        margin-right: 0 !important;
+    }
+
+    .history__desc {
+        max-width: 540px !important;
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (max-width: 1005px) {
+    .hero {
+        background-image: url(./assets/home/header_planshet.png) !important;
+    }
+
+    .thisMuseum__img {
+        width: 627px;
+        height: 550px !important;
+    }
+
+    .thisMuseum__text1 {
+        font-size: 28px !important;
+    }
+
+    .thisMuseum__text2 {
+        font-size: 24px !important;
+    }
+
+    .tal {
+        font-size: 1.8rem !important;
+    }
+
+    .thisMuseum__content {
+        height: 380px !important;
+    }
+
+    .hero__title {
+        font-size: 70px !important;
+    }
+
+    .hero__text {
+        font-size: 24px !important;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media (max-width: 992px) {
+    .thisMuseum__content {
+        height: 400px;
+
+    }
+
+    .history__master {
+        max-width: 520px !important;
+        width: 100% !important;
+        height: 470px !important;
+    }
+
+    .history__cup {
+        max-width: 400px !important;
+        width: 100% !important;
+        height: 214px !important;
+        margin-right: 0 !important;
+
+    }
+
+    .history__desc {
+        max-width: 434px !important;
+        width: 100% !important;
+        height: 225px !important;
+        margin-right: 0 !important;
+    }
+    .advantages__icon1{
+        margin-bottom: 10px !important;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 768px) {
+    .hero {
+        background-image: url(./assets/home/header_planshet2.png) !important;
+        height: 614px !important;
+    }
+
+    .thisMuseum__container {
+        flex-direction: column;
+    }
+    .contacts__message{
+        justify-content: center;
+    }
+    .location_google{
+        justify-content: center;
+    }
+    .hero__text {
+        font-size: 16px !important;
+    }
+
+    .history__master {
+        max-width: 520px !important;
+        width: 100% !important;
+        height: 470px !important;
+        width: 100% !important;
+    }
+
+    .history__cup {
+        max-width: 380px !important;
+        width: 100% !important;
+        height: 214px !important;
+        margin-right: 0 !important;
+
+    }
+
+    .history__desc {
+        max-width: 380px !important;
+        width: 100% !important;
+        height: 225px !important;
+        margin-right: 0 !important;
+        font-size: 16px !important;
+    }
+
+    .history__container {
+        margin: 0 !important;
+        width: 100% !important;
+        max-width: 768px !important;
+    }
+
+    .footer__navigation {
+        display: grid !important;
+        grid-template-columns: auto auto;
+    }
+
+    .footer {
+        height: 259px !important;
+    }
+
+    .galleries__box {
+        grid-template-columns: auto auto !important;
+    }
+
+    .advantages {
+        height: auto !important;
+    }
+
+    .advantages__container {
+        display: grid;
+        grid-template-columns: auto auto !important;
+        /* margin: 0 30px !important; */
+    }
+    .container{
+        margin: 0 30px !important;
+        
+    }
+    .contacts__box {
+        margin: 0 !important;
+    }
+
+    .location__text {
+        font-size: 18px;
+    }
+
+    .help__num {
+        font-size: 24px !important;
+    }
+
+    .contacts__box {
+        flex-direction: column;
+        height: auto !important;
+        justify-content: center;
+        margin: 0 !important;
+    }
+
+    .tel__num {
+        margin-top: 60px !important;
+    }
+        .advantages__box {
+            max-width: 354px !important;
+        }
+        .advantages__container{
+            margin: 0 !important;
+        }
+        .container{
+            margin: 0 !important;
+        }
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 480px) {
+    .hero {
+        background-image: url(./assets/home/header_tel.png) !important;
+        height: 400px !important;
+    }
+
+    .history__container {
+        flex-direction: column;
+    }
+
+    .thisMuseum__info {
+        margin-top: 20px !important;
+    }
+
+    .history__master {
+        max-width: 380px !important;
+        width: 100% !important;
+    }
+
+    .history__desc {
+        margin-left: 0 !important;
+    }
+
+    .history__cup {
+        margin-left: 0 !important;
+    }
+
+    .hero__title {
+        font-size: 34px !important;
+    }
+
+    .hero__text {
+        font-size: 14px !important;
+    }
+
+    .tel__num {
+        margin-top: 60px !important;
+    }
+
+    .history__desc {
+        max-width: 440px !important;
+        width: 100% !important;
+    }
+
+    .advantages__container {
+        grid-template-columns: auto !important;
+    }
+
+    .advantages__box {
+        max-width: 340px !important;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+@media (max-width: 392px) {
+    .hero {
+        background-image: url(./assets/home/header_tel2.png) !important;
+        height: 300px !important;
+    }
+
+    .footer {
+        height: 304px !important;
+    }
+
+    .footer__navigation {
+        display: grid !important;
+        grid-template-columns: auto;
+    }
+
+    /* .thisMuseum__container{
+        display: flex !important;
+        flex-direction: column !important;
+    } */
+    .history__master {
+        max-width: 380px !important;
+        height: 490px !important;
+        width: 100% !important;
+        overflow: visible !important;
+    }
+
+    .history__cup {
+        max-width: 380px !important;
+        width: 100% !important;
+        height: 214px !important;
+        margin: 0 !important;
+
+    }
+
+    .history_card {
+        max-width: 392px;
+        width: 100%;
+    }
+
+    .history__desc {
+        max-width: 380px !important;
+        width: 100% !important;
+        height: 225px !important;
+        /* margin-right: 0 !important; */
+        font-size: 16px !important;
+        margin: 0 !important;
+    }
+
+    .hero__title {
+        font-size: 34px !important;
+    }
+
+    .hero__text {
+        font-size: 14px !important;
+    }
+
+    .thisMuseum__content {
+        height: 400px !important;
+    }
+
+    .thisMuseum__text1 {
+        font-size: 26px !important;
+    }
+
+    .thisMuseum__text2 {
+        font-size: 16px !important;
+    }
+
+    .tal {
+        font-size: 16px !important;
+    }
+
+    .galleries__box {
+        grid-template-columns: auto !important;
+        margin: 5px !important;
+    }
+
+    .advantages__container {
+        display: grid;
+        grid-template-columns: auto !important;
+    }
+    .advantages__box {
+        margin: 20px 0 !important;
+    }
+
+    .history__container {
+        flex-direction: column;
+    }
+
+    .hero__title {
+        padding-top: 90px !important;
+    }
+
+    .tel__num {
+        margin-top: 0 !important;
+    }
+    h1{
+        font-size: 30px !important;
+    }
+    .logo{
+        width: 132px !important;
+        height: 40px !important;
+    }
+    .thisMuseum__title {
+        margin: 4rem 0 2rem 0 !important;
+    }
+    .sitenav{
+        top:20px !important;
+    }
+    .phone__icon{
+        width: 18px !important;
+    }
 }

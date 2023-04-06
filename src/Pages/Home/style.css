@@ -1,0 +1,490 @@
+/* Header */
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+.sitenav {
+  width: 100%;
+  position: absolute;
+  top: 40px;
+  /* position: fixed;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  backdrop-filter: blur(7px);
+  z-index: 5; */
+}
+
+.sitenav__container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-btn {
+  margin-right: auto;
+  cursor: pointer;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+}
+
+.site-logo {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-text {
+  width: 111px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 25px;
+  color: #2c2d2e;
+  text-align: center;
+}
+
+#translate {
+  border: none;
+  background-color: transparent;
+  font-size: 1.25rem;
+  /* width: 100%; */
+  /* min-width:3rem;
+  max-width: 4rem; */
+  cursor: pointer;
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+}
+
+/* Main */
+.main{
+  box-sizing: border-box;
+}
+/* Hero */
+.hero {
+  width: 100%;
+  background-color: #123412;
+  background-image: url("../../assets/home/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero__container {
+  height: 90rem;
+}
+
+.hero__title {
+  width: 100%;
+  max-width: 81.1rem;
+  font-family: "Lora";
+  font-weight: 500;
+  font-size: 9rem;
+  line-height: 120%;
+  color: #653819;
+  padding-top: 17.6rem;
+}
+
+.hero__text {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 4.1rem;
+  max-width: 50.8rem;
+}
+
+.hero__title--color {
+  color: #2c2d2e;
+}
+
+.tel__num {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  margin-top: 25rem;
+  display: flex;
+}
+
+.phone__icon {
+  margin-bottom: 3px;
+}
+
+/* This Museum */
+
+.thisMuseum__title {
+  font-family: "Lora";
+  font-weight: 500;
+  font-size: 4.6rem;
+  line-height: 59px;
+  color: #2c2d2e;
+  text-align: center;
+  background-color: #fff;
+  margin: 8rem 0 6rem 0;
+}
+
+.thisMuseum__container {
+  display: flex;
+  max-width: 1920px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFFFFF;
+  align-items: center;
+}
+
+.thisMuseum__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3b80c5;
+  height: 500px;
+}
+
+.thisMuseum__img {
+  /* top: -6rem; */
+  /* position: absolute; */
+  max-width: 1000px;
+  height: 650px;
+}
+
+.thisMuseum__info {
+  width: 100%;
+  max-width: 50rem;
+  text-align: center;
+  margin-top: -100px;
+
+}
+
+.thisMuseum__text1 {
+  font-family: "Lora";
+  font-weight: 500;
+  font-size: 3.6rem;
+  line-height: 46px;
+}
+
+.thisMuseum__text2 {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.8rem;
+  margin-bottom: 30px;
+}
+
+.tal {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: left;
+}
+
+/* History */
+.history__container{
+  display: flex;
+  box-sizing: border-box;
+}
+.history__master{
+  height: 728px;
+  width: 500px;
+  overflow: hidden;
+}
+.history__title {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.6rem;
+  text-align: center;
+  color: #2c2d2e;
+  margin-top: 3rem;
+}
+
+.history__desc {
+  width: 678px;
+  height: 266px;
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  overflow: hidden;
+  margin:0 0 3rem 2rem;
+}
+
+.history__cup {
+  width: 678px;
+  height: 431px;
+  grid-column-start: 2;
+  grid-row-start: 3;
+  margin: 2rem;
+}
+
+/* Advantages */
+
+.advantages {
+  width: 100%;
+  height: 37.3rem;
+  background: #3b80c5;
+  color: #ffffff;
+  margin-bottom: 8rem;
+}
+
+.advantages__container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+
+}
+
+.advantages__title {
+  color: #2c2d2e;
+  font-family: "Lora";
+  font-weight: 500;
+  font-size: 4.6rem;
+  text-align: center;
+  margin: 8rem 0 4rem 0;
+}
+
+.advantages__box {
+  width: 39.6rem;
+  height: 25.6rem;
+  margin: 6rem 0;
+  text-align: center;
+}
+
+.advantages__icon1 {
+  width: 10rem;
+  height: 8rem;
+  margin-bottom: 2rem;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.advantages__icon2 {
+  width: 8rem;
+  height: 10rem;
+  margin-bottom: 2rem;
+  margin: auto;
+}
+
+.advantages__icon3 {
+  width: 10rem;
+  height: 8rem;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.advantages__titles {
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 41px;
+  margin: 2rem 0;
+}
+
+.advantages__text {
+  width: 39.6rem;
+  height: 7.5rem;
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Galleries */
+.galleries__title {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.6rem;
+  color: #2c2d2e;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.galleries__box {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* padding: 0 10.6rem; */
+  grid-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.galleries__img {
+  width: 29.2rem;
+  height: 22rem;
+}
+
+.galleries__btn {
+  background: #2e557c;
+  box-shadow: 0px 6px 13px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.4rem 6rem;
+  width: 21.5rem;
+  height: 5.3rem;
+  font-family: "Saira";
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #ffffff;
+  border: none;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+/* Contacts */
+
+.contacts__title {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.6rem;
+  line-height: 5.9rem;
+  color: #2c2d2e;
+  text-align: center;
+}
+
+.con {
+  background-color: #3b80c5;
+
+}
+
+.contacts__box {
+  width: 100%;
+  height: 54rem;
+  margin-top: 5rem;
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  color: #ffffff;
+  display: flex;
+}
+
+.contacts__boxes {
+  margin-right: 3%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.location__text {
+  max-width: 32rem;
+  width: 100%;
+  height: 12.4rem;
+}
+
+.help__num {
+  width: 26.6rem;
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 4.1rem;
+}
+
+.contacts__location {
+  display: flex;
+  margin: 3% 0 0 6%;
+}
+
+.contacts__help {
+  display: flex;
+  margin: 0 0 0 6%;
+}
+
+.contacts__message {
+  display: flex;
+  margin: 4rem 0 0 6%;
+}
+
+.location__icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 1.4rem;
+  margin-top: 0.5rem;
+}
+
+.help__icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 1.4rem;
+  margin-top: 1rem;
+}
+
+.message__icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 1.4rem;
+  /* margin-top: 1rem; */
+}
+
+.contacts_after {
+  margin: 1rem 0 0 8%;
+}
+
+.location_google {
+  border: none;
+  width: 733px;
+  height: 540px;
+}
+
+/* Footer */
+.foo{
+  display: flex;
+  justify-content: space-between;
+}
+.footer__logo-text {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  text-align: center;
+  width: 11.1rem;
+}
+
+.footer__navigation {
+  display: flex;
+}
+
+.footer__navigation>h2{
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff !important;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.footer__text {
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+}
